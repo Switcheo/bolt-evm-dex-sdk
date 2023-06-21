@@ -1,16 +1,14 @@
 {
-  "name": "@uniswap/sdk",
+  "name": "@bolt-dex/sdk",
   "license": "MIT",
   "version": "3.0.3",
-  "description": "🛠 An SDK for building applications on top of Uniswap.",
+  "description": "🛠 An SDK for building applications on top of Bolt DEX.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Uniswap/uniswap-sdk.git",
   "keywords": [
-    "uniswap",
     "ethereum"
   ],
   "module": "dist/sdk.esm.js",

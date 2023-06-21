@@ -57,28 +57,60 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
 }
 
 export const WETH = {
-  [ChainId.MAINNET]: new Token(
-    ChainId.MAINNET,
-    '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-    18,
-    'WETH',
-    'Wrapped Ether'
-  ),
-  [ChainId.ROPSTEN]: new Token(
-    ChainId.ROPSTEN,
-    '0xc778417E063141139Fce010982780140Aa0cD5Ab',
-    18,
-    'WETH',
-    'Wrapped Ether'
-  ),
-  [ChainId.RINKEBY]: new Token(
-    ChainId.RINKEBY,
-    '0xc778417E063141139Fce010982780140Aa0cD5Ab',
-    18,
-    'WETH',
-    'Wrapped Ether'
-  ),
-  [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.KOVAN]: new Token(ChainId.KOVAN, '0xd0A1E359811322d97991E03f863a0C30C2cF029C', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.BOLTCHAIN]: new Token(ChainId.BOLTCHAIN,'0x36A61a9f5002c505f1046ceE5765D603594e9208', 18, 'WETH', 'Wrapped Ether')
-}
+         [ChainId.MAINNET]: new Token(
+           ChainId.MAINNET,
+           '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+           18,
+           'WETH',
+           'Wrapped Ether'
+         ),
+         [ChainId.ROPSTEN]: new Token(
+           ChainId.ROPSTEN,
+           '0xc778417E063141139Fce010982780140Aa0cD5Ab',
+           18,
+           'WETH',
+           'Wrapped Ether'
+         ),
+         [ChainId.RINKEBY]: new Token(
+           ChainId.RINKEBY,
+           '0xc778417E063141139Fce010982780140Aa0cD5Ab',
+           18,
+           'WETH',
+           'Wrapped Ether'
+         ),
+         [ChainId.GÖRLI]: new Token(
+           ChainId.GÖRLI,
+           '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6',
+           18,
+           'WETH',
+           'Wrapped Ether'
+         ),
+         [ChainId.KOVAN]: new Token(
+           ChainId.KOVAN,
+           '0xd0A1E359811322d97991E03f863a0C30C2cF029C',
+           18,
+           'WETH',
+           'Wrapped Ether'
+         ),
+         [ChainId.BOLTCHAIN]: new Token(
+           ChainId.BOLTCHAIN,
+           '0xbA6E0C8d1F8aD851B2C3C4e664E4f6a6C119A6e6',
+           18,
+           'WETH',
+           'Wrapped Ether'
+         ),
+         [ChainId.BNB]: new Token(
+           ChainId.BNB,
+           '0x4DB5a66E937A9F4473fA95b1cAF1d1E1D62E29EA',
+           18,
+           'WETH',
+           'Wrapped Ether'
+         ),
+         [ChainId.POLYGON]: new Token(
+           ChainId.POLYGON,
+           '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619',
+           18,
+           'WETH',
+           'Wrapped Ether'
+         )
+       }

@@ -10,6 +10,8 @@ export enum ChainId {
   GÖRLI = 5,
   KOVAN = 42,
   BOLTCHAIN = 42069,
+  BNB = 56,
+  POLYGON = 137,
 }
 
 export enum TradeType {
@@ -23,7 +25,7 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0xDcE5BAa3583Fd40fd739Fc71911e4c11894E02EA' // v2 address
+export const FACTORY_ADDRESS = '0x3b9fE476d983E95D6264f9ebB1ea02cFaA6bA56c' // v2 address
 
 export const INIT_CODE_HASH = '0x44143914e8635a0469aba189b8de6b2de637056633de24e05952c535e6eefae6'
 
