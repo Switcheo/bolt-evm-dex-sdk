@@ -9,7 +9,7 @@ export enum ChainId {
   RINKEBY = 4,
   GÖRLI = 5,
   KOVAN = 42,
-  BOLTCHAIN = 42069,
+  BOLTCHAIN = 16481,
   BNB = 56,
   POLYGON = 137,
 }
@@ -25,7 +25,7 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0x3b9fE476d983E95D6264f9ebB1ea02cFaA6bA56c' // v2 address
+export const FACTORY_ADDRESS = '0xC428448C8B64831FF7CB9E57f4A7e5bCB0e400E7' // v2 address
 
 export const INIT_CODE_HASH = '0x44143914e8635a0469aba189b8de6b2de637056633de24e05952c535e6eefae6'
 

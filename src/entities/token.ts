@@ -94,7 +94,7 @@ export const WETH = {
          ),
          [ChainId.BOLTCHAIN]: new Token(
            ChainId.BOLTCHAIN,
-           '0xbA6E0C8d1F8aD851B2C3C4e664E4f6a6C119A6e6',
+           '0x5abA3177A50424C750Ab34d1708D818EDB9a8201',
            18,
            'WETH',
            'Wrapped Ether'
